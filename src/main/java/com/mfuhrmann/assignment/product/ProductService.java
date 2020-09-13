@@ -1,5 +1,10 @@
 package com.mfuhrmann.assignment.product;
 
+import com.mfuhrmann.assignment.product.create.CreateProductRequest;
+import com.mfuhrmann.assignment.product.create.CreateProductResponse;
+import com.mfuhrmann.assignment.product.update.UpdateProductRequest;
+import com.mfuhrmann.assignment.product.view.GetAllProductsResponse;
+import com.mfuhrmann.assignment.product.view.GetAllProductsView;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -43,7 +48,6 @@ public class ProductService {
 
         productDocumentRepository.save(productDocument);
     }
-
 
     public GetAllProductsResponse getAllProducts() {
         List<GetAllProductsView> activeProducts = productDocumentRepository.findAllActive().stream()

@@ -1,5 +1,7 @@
 package com.mfuhrmann.assignment.product;
 
+import com.mfuhrmann.assignment.product.create.CreateProductRequest;
+import com.mfuhrmann.assignment.product.create.CreateProductResponse;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

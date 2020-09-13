@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  db:
+    image: library/mongo:3.6.19
+    ports:
+      - "27017:27017"

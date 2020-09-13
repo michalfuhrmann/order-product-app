@@ -1,4 +1,4 @@
-package com.mfuhrmann.assignment.product;
+package com.mfuhrmann.assignment.product.view;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

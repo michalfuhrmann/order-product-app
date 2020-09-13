@@ -1,4 +1,4 @@
-package com.mfuhrmann.assignment.product;
+package com.mfuhrmann.assignment.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @AllArgsConstructor
 @Getter
-@ResponseStatus(code = HttpStatus.NOT_FOUND)
-public class ProductNotFoundException extends RuntimeException {
-
-    private final String id;
+@ResponseStatus(code = HttpStatus.BAD_REQUEST)
+public class InvalidEmailException extends RuntimeException{
+    private final String email;
 }

@@ -1,16 +1,16 @@
-package com.mfuhrmann.assignment.product;
+package com.mfuhrmann.assignment.product.view;
 
+
+import com.mfuhrmann.assignment.product.ProductDocument;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 
 import java.math.BigDecimal;
 import java.time.Instant;
 
-@Builder
 @Getter
 @AllArgsConstructor
-public class CreateProductResponse {
+public class GetAllProductsView {
 
     private final String id;
     private final String sku;
@@ -18,7 +18,7 @@ public class CreateProductResponse {
     private final String name;
     private final BigDecimal price;
 
-    public CreateProductResponse(ProductDocument product) {
+    public GetAllProductsView(ProductDocument product) {
         this.id = product.getId();
         this.sku = product.getSku();
         this.creationDate = product.getCreationDate();

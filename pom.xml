@@ -15,7 +15,7 @@
 	<description>Basic CRUD app for Orders and Products</description>
 
 	<properties>
-		<java.version>14</java.version>
+		<java.version>11</java.version>
 		<springfox-swagger.version>2.9.2</springfox-swagger.version>
 		<springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
 		<lombok.version>1.18.10</lombok.version>
@@ -55,6 +55,14 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>${springfox-swagger.version}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.7</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

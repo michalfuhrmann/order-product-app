@@ -1,5 +1,6 @@
 package com.mfuhrmann.assignment.product;
 
+import com.mfuhrmann.assignment.product.update.UpdateProductRequest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
