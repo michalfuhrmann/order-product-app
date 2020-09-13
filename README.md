@@ -1,5 +1,5 @@
 
-#General info
+##General info
 Order Product app that allows creating basic order and products.
 Technologies: SpringBoot, Docker
 Persistence layer: MongoDB
