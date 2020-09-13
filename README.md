@@ -1,5 +1,4 @@
-
-##General info
+# General info
 Order Product app that allows creating basic order and products.
 Technologies: SpringBoot, Docker
 Persistence layer: MongoDB
@@ -11,7 +10,7 @@ To run the app
 docker-compose up -d && mvn spring-boot:run
 ```
 
-##Test
+## Test
 
 Tests run on embedded mongoDB
 To run tests:
